@@ -1,0 +1,347 @@
+@charset "ISO-8859-1";
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+  display :flex;
+  height:50px;
+}
+.row
+{
+
+flex:10%;
+padding:4px;
+flex-direction: row;
+}
+.column
+{
+
+display:flex;
+}
+a
+{
+padding:10px 50px 0px 70px;
+color:blue;
+height:0px;
+text-decoration:none;
+}
+a:hover
+{
+color:red;
+}
+
+    @media only screen and (max-width: 1000px) {
+  .responsive4 {
+    width: 100%;
+   
+  }
+    }
+
+@media only screen and (min-width: 100px) {
+  .header  {
+
+    width: 100%;
+   
+  }
+    }
+     @media only screen and (max-width: 500px) {
+  .modal-content{
+  
+    width: 70%;
+
+   
+  }
+    }
+
+@media only screen and (min-width: 450px) {
+  .modal-content  {
+
+    width: 40%;
+   
+  }
+    }
+    
+      @media only screen and (max-width: 1000px) {
+  .responsive5{
+    width: 100%;
+   
+  }
+    }
+
+
+    @media only screen and (min-width: 100px) {
+  .header8  {
+padding: 0px 0px 380px;
+margin-left: -50px;
+  }
+    }
+.header {
+    
+               
+                height : 0 px;
+                color: red ;
+                position: relative;
+                text-shadow: 10px 2px 10px green;
+                animation-name: exp ;
+                animation-duration: 3s;
+                animation-direction: normal;
+                animation-fill-mode: forwards;
+                text-align: center;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 100px;
+                top:-180px;
+}
+@keyframes exp {
+                from{
+                    left:-800px;
+                }
+                to{
+                    left:15px;
+                }
+                
+            }
+            
+
+.header1 {
+                width: 200 px;
+                height : 0 px;
+                color: red ;
+                position: relative;
+                text-shadow: 10px 2px 10px green;
+                animation-name: exp1 ;
+                animation-duration: 3s;
+                animation-direction: normal;
+                animation-fill-mode: forwards;
+                text-align: center;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-size: 100px;
+                top:-420px;
+}
+@keyframes exp1 {
+                from{
+                    left:1000px;
+                }
+                to{
+                    left:10px;
+                }
+                
+            }   
+div.header4 {
+      border: 0px solid #ccc;
+      border-radius: 10px;
+      border-bottom-width: 0px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      width: 100%;
+      box-shadow: 3px 3px 3px 3px rgb(201, 194, 194);
+      padding:0px 0px 0px;
+}
+div.header4 img {
+     width: 100%;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+     height: auto;
+}
+.responsive4 {
+  padding: 5px 50px 20px ;
+  float: left;
+  width: 45.33%;
+  margin-left:24%;
+  margin-top:-310px;
+}
+
+
+.responsive5 {
+  padding: 0px 52px 20px  ;
+  float: left;
+  width: 24.0%;
+  margin-left:0px;
+}
+div.header6 a
+{
+margin-left:-70px;
+}
+
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+ 
+  
+}
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.container {
+  padding: 20px;
+  width:100%;
+  font-size:20px;
+}
+.btn button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 30px 0px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+.header6 button {
+  background-color: red;
+  color: white;
+  padding: 14px 20px;
+  margin: 30px 0px;
+  border: none;
+  cursor: pointer;
+  border-radius:10px;
+  width: 100%;
+}
+input[type=text] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=tel] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.responsive1{
+  
+  float: left;
+width: 100%;
+margin-left: 0px;
+display: flex;
+background-color: blue;
+}
+        .header6 {
+    display: flex;
+    flex-direction: column;
+    margin: 1%; 
+    height: 40%;
+}
+        .header6 img {
+    margin: 1%;
+width: 300px;
+height: 200px;
+border-radius: 10px;
+}
+      a:hover
+      {
+      cursor:pointer;
+      }  
+   .container2 {
+   padding: 20px;
+  width:100%;
+  font-size:20px;
+ 
+}
+
+.header8 img 
+{
+
+border-radius: 70%;
+margin-top: -390px;
+width: 300px;
+display: flex;
+height: 310px;
+flex-direction: row;
+
+}
+.responsive {
+   padding: 0px 52px 20px  ;
+  float: left;
+  width: 20.0%;
+  margin-left:60px;
+  flex-direction:row;
+}
+.responsive9 {
+  padding: 0px 52px 20px  ;
+  float: left;
+  width: 92.0%;
+  margin-left:0px;
+background-color:grey;
+}
+.header9
+{
+ display: flex;
+    flex-direction: column;
+    margin: 1%; 
+    height: 40%;
+  color:white;
+}
+
+
+@media only screen and (min-width: 500px) {
+ p {
+
+margin-left: 0px;
+   width: 110%;
+  }
+    }
+    p
+    {
+    width:300px;
+    }
+     .next h3{
+   
+width: 210px;
+    }
+    .next1 h3
+    {
+    width:300px;
+    margin-left:50px;
+    }

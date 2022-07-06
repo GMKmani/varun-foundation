@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+.row
+{
+flex:20%;
+padding:10px;
+flex-direction: row;
+background-color:lightblue;
+}
+.column
+{
+display:flex;
+}
+.row a
+{
+margin-top:40px;
+padding:10px 10px 10px 10px;
+color:blue;
+height:30px;
+text-decoration:none;
+text-align:center;
+margin-left:150px;
+}
+a:hover
+{
+color:red;
+} 
+h1
+{
+text-align:center;
+color: transparent;
+  animation: effect 2s linear infinite;
+  }
+    @keyframes effect {
+        0% {
+            background: linear-gradient(
+                #008000, #00FF00);
+            background-clip: text;
+        }
+ 
+        100% {
+            background: linear-gradient(
+                #3CE7D7, #000FFF);
+            background-clip: text;
+        }
+    }
+.vl {
+  border-left: 3px solid black;
+  height: 800px; 
+}
+p
+{
+width:100%;
+font-size:20px;
+}
+#btn
+{
+  background-color:green;
+  border-radius: 5px;
+  padding :15px 30px;
+  border: 2px solid green;
+  font-size: .8rem;
+  font-weight: bold;
+  margin-left:42%;
+}

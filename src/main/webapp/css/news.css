@@ -1,0 +1,182 @@
+@charset "ISO-8859-1";
+.row
+{
+flex:20%;
+padding:10px;
+flex-direction: row;
+background-color:lightblue;
+}
+.column
+{
+display:flex;
+}
+.row a
+{
+margin-top:40px;
+padding:10px 10px 10px 10px;
+color:blue;
+height:30px;
+text-decoration:none;
+text-align:center;
+margin-left:150px;
+}
+a:hover
+{
+color:red;
+}div.header {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px 5px rgb(201 194 194);
+    background-color: white;
+    height: 450px;
+    font-size: 20px;
+
+ 
+
+}
+div.header img {
+    width: 100%;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 200px;
+}  
+.responsive {
+  padding: 0px 52px 20px  ;
+  float: left;
+  width: 24.0%;
+  margin-left:0px;
+  
+}
+.responsive1{
+  padding: 0px 0px 0px ;
+  float: left;
+  width: 100%;
+  margin-left:0px;
+}
+p
+{
+font-size:15px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .responsive {
+    width: 70%;
+   
+  }
+}
+
+
+@media only screen and (min-width: 450px) {
+  .modal-content  {
+left:57px;
+    width: 70%;
+   
+  }
+    }
+    
+.header1 h2
+{
+font-size:40px;
+}
+.header1
+{
+background-color:lightgrey;
+}
+.header1 p
+{
+font-size:30px;
+}
+input[type=submit] {
+            border-radius: 5px;
+            padding :15px 30px;
+            margin-top: 20px;
+            border: 2px solid green;
+            font-size: .8rem;
+            background-color:green;
+            margin-left:47%;
+            font-weight: bold;
+}
+  input[type=submit]:hover{
+            background-color: green;
+            color:#fff;
+            font-weight:bold;
+            font-size:1rem;
+        }
+        .footer
+        {
+        background-color:blue;
+        height:200px;
+        margin-top:-19px;
+        }
+        h3
+        {
+        color:white;
+        }
+.footer input[type=submit] {
+            border-radius: 5px;
+            padding :15px 30px;
+            margin-top: -40px;
+            border: 2px solid white;
+            font-size: .8rem;
+            color:orange;
+            font-weight: bold;
+            margin-left:45%;
+}
+  .footer input[type=submit]:hover{
+            color:#fff;
+            font-weight:bold;
+            font-size:1rem;
+        }
+        
+        .modal1 {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+}
+.modal-content1 {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+
+  position: fixed;
+margin-left: 130px;
+margin-top:-20px;
+width:80%;
+}
+.animate1 {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+.container1 {
+  padding: 20px;
+  width:100%;
+      max-height: 550px;
+overflow-y:scroll; 
+
+}
+a:hover
+{
+cursor:pointer;
+}
